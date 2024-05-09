@@ -33,17 +33,17 @@ const HeroSection: React.FC<heroProps> = ({
             <h2 className="font-mono font-bold text-acc text-lg">
               {secondHeading}
             </h2>
-            <h1 className="text-8xl animate-typing font-bold ">{header}</h1>
+            <h1 className="text-4xl lg:text-8xl animate-typing font-bold ">{header}</h1>
             <h3 className="my-6   text-xl">{sub}</h3>
             <div className="my-10">
               <Link
-                className="p-56 bg-accent text-background font-medium rounded-md py-3 px-4 lg:mb-0 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-rose-500  hover:scale-110"
+                className="p-3 lg:p-4 bg-accent text-background font-medium rounded-md py-2 px-3 lg:mb-0 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-rose-500  hover:scale-110"
                 href={OC}
               >
                 {CTA1}
               </Link>
               <Link
-                className="p-56 border-2 animate-bounce  border-accent text-accent font-medium rounded-md mx-2 py-3 px-4 transition duration-300 ease-in-out transform hover:-translate-y-1  hover:bg-accent hover:text-background   hover:scale-110"
+                className="p-3 lg:p-4 border-2 animate-bounce  border-accent text-accent font-medium rounded-md mx-2 py-2 px-3 lg:mx-2 lg:py-3 lg:px-4 transition duration-300 ease-in-out transform hover:-translate-y-1  hover:bg-accent hover:text-background   hover:scale-110"
                 href={OC1}
               >
                 {CTA2}
@@ -55,7 +55,8 @@ const HeroSection: React.FC<heroProps> = ({
       <div className="self-end">
         <div className="animate-bounce w-14 h-14 justify-center text-2xl border-4 text-primary border-primary rounded-full flex items-center">
           <Link className="" href='#contact'>
-        <FaHandPointDown className="text-3xl " /></Link>
+            <FaHandPointDown className="text-3xl " />
+          </Link>
         </div>
       </div>
     </section>
