@@ -55,7 +55,7 @@ const HeroSection: React.FC<heroProps> = ({
       <div className="self-end">
         <div className="animate-bounce w-14 h-14 justify-center text-2xl border-4 text-primary border-primary rounded-full flex items-center">
           <Link className="" href='#contact'>
-            <FaHandPointDown className="text-3xl " />
+            <FaHandPointDown className="text-3xl"/>
           </Link>
         </div>
       </div>

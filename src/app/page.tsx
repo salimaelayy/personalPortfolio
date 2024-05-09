@@ -7,10 +7,10 @@ import Footer from "@/component/footer/page";
 import CForm from "@/component/ContactForm/form";
 import Image from 'next/image'
 import img from '@/assets/Salima.png'
-import projectimg1 from '@/assets/project1.webp'
-import projectimg2 from '@/assets/project2.webp'
-import projectimg3 from '@/assets/project3.webp'
-import projectimg4 from '@/assets/project4.webp'
+import projectimg1 from '@/assets/authflow.jpg'
+import projectimg2 from '@/assets/chatsphere2.jpg'
+import projectimg3 from '@/assets/noteM.jpg'
+import projectimg4 from '@/assets/techinovate.jpg'
 import Link from "next/link";
 import HeroSection from "@/component/hero/page";
 
