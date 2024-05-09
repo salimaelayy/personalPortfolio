@@ -31,12 +31,12 @@ export default function Home() {
         <section id="projects" className="text-center mb-12">
           <h2 className="text-6xl text-primary mb-16 text-start font-semibold">Projects<span className="text-accent">.</span></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <ProjectCard imageUrl={projectimg1} title="first project" />
-            <ProjectCard imageUrl={projectimg2} title="second project" />
-            <ProjectCard imageUrl={projectimg3} title="third project" />
-            <ProjectCard imageUrl={projectimg4} title="fourth project" />
-            <ProjectCard imageUrl={projectimg3} title="third project" />
-            <ProjectCard imageUrl={projectimg4} title="fourth project" />
+            <ProjectCard href="https://github.com/salimaelayy/AuthFlow-Pro-.git" imageUrl={projectimg1} title="first project" />
+            <ProjectCard href="https://github.com/salimaelayy/ChatSphere.git" imageUrl={projectimg2} title="second project" />
+            <ProjectCard href="https://github.com/aicha-azr/Note-Management.git" imageUrl={projectimg3} title="third project" />
+            <ProjectCard href="https://github.com/salimaelayy/Tech-Innovate-.git" imageUrl={projectimg4} title="fourth project" />
+            <ProjectCard href="" imageUrl={projectimg3} title="third project" />
+            <ProjectCard href="" imageUrl={projectimg4} title="fourth project" />
           </div>
         </section>
         <section id="about-me" className="text-center">

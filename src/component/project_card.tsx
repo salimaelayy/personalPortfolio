@@ -5,10 +5,11 @@ import Link from "next/link";
 interface CardProps {
     imageUrl: StaticImageData;
     title: string;
+    href:string;
  
 }
 
-const ProjectCard: React.FC<CardProps> = ({imageUrl,title}) => {
+const ProjectCard: React.FC<CardProps> = ({imageUrl,title,href}) => {
     return (
         <div className="rounded-lg items-center justify-center">
             <div className="mb-4">
