@@ -1,10 +1,6 @@
 import Link from "next/link";
 import { FaHandPointDown } from "react-icons/fa6";
-import Button from "../button/page";
 import { ReactNode } from "react";
-import { Url } from "url";
-import { BiArrowFromTop, BiDownArrow, BiUpArrow } from "react-icons/bi";
-import { FaArrowDown } from "react-icons/fa";
 
 interface heroProps {
   header: ReactNode;
@@ -33,17 +29,17 @@ const HeroSection: React.FC<heroProps> = ({
             <h2 className="font-mono font-bold text-acc text-lg">
               {secondHeading}
             </h2>
-            <h1 className="text-4xl lg:text-8xl animate-typing font-bold ">{header}</h1>
-            <h3 className="my-6   text-xl">{sub}</h3>
-            <div className="my-10">
+            <h1 className="text-4xl lg:text-8xl animate-typing font-bold">{header}</h1>
+            <h3 className="my-6 text-xl">{sub}</h3>
+            <div className="my-10 flex flex-col lg:flex-row">
               <Link
-                className="p-3 lg:p-4 bg-accent text-background font-medium rounded-md py-2 px-3 lg:mb-0 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-rose-500  hover:scale-110"
+                className="p-3 w-fit lg:p-4 bg-accent text-background font-medium rounded-md py-2 px-3 lg:mb-0 mb-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-rose-500 hover:scale-110"
                 href={OC}
               >
                 {CTA1}
               </Link>
               <Link
-                className="p-3 lg:p-4 border-2 animate-bounce  border-accent text-accent font-medium rounded-md mx-2 py-2 px-3 lg:mx-2 lg:py-3 lg:px-4 transition duration-300 ease-in-out transform hover:-translate-y-1  hover:bg-accent hover:text-background   hover:scale-110"
+                className="p-3 w-fit lg:p-4 border-2 border-accent text-accent font-medium rounded-md py-2 px-3 lg:mx-2 lg:py-3 lg:px-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-accent hover:text-background hover:scale-110"
                 href={OC1}
               >
                 {CTA2}
@@ -54,8 +50,8 @@ const HeroSection: React.FC<heroProps> = ({
       </div>
       <div className="self-end">
         <div className="animate-bounce w-14 h-14 justify-center text-2xl border-4 text-primary border-primary rounded-full flex items-center">
-          <Link className="" href='#contact'>
-            <FaHandPointDown className="text-3xl"/>
+          <Link href='#contact'>
+            <FaHandPointDown className="text-3xl" />
           </Link>
         </div>
       </div>
