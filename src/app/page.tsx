@@ -73,7 +73,7 @@ export default function Home() {
     </div>
     <div className="w-full lg:w-1/2 text-left leading-9 tracking-widest text-base mb-4 lg:mr-4">
       <p>
-        I'm <span className="font-medium">Salima El Ayyachi</span>, I specialize in the MERN stack to design dynamic web applications. I am skilled at creating robust APIs in the backend and developing intuitive user interfaces in the frontend. I have a talent for transforming your vision into innovative and engaging digital realities.
+        I&apos;m <span className="font-medium">Salima El Ayyachi</span>, I specialize in the MERN stack to design dynamic web applications. I am skilled at creating robust APIs in the backend and developing intuitive user interfaces in the frontend. I have a talent for transforming your vision into innovative and engaging digital realities.
       </p>
       <br />
       <p>
