@@ -21,7 +21,8 @@ export default function Home() {
         <Navbar />
         <HeroSection
           secondHeading={<> Salam, I&apos;m Salima 👋🏻</>}
-          sub={<> I am skilled at developing intuitive user interfaces in that will suit your needs. I have a talent for transforming your vision into innovative and engaging digital realities.</>}
+          sub={<> I am skilled at developing intuitive user interfaces that will suit your needs. I have a talent for transforming your vision into innovative and engaging digital realities.</>}
+          
           OC1="#projects"
           OC="#contact"
           header={<><span className="text-accent">FullStack </span>Developer</>}
